@@ -3,15 +3,27 @@
     gap: 20px;
     padding: 20px;
     width: 100%;
-    border-bottom: 1px dashed var(--main-color);
+}
+
+.about_content{
+    background-color: #F5F5F5;
+    border-radius: 30px;
+    margin: 50px;
+    padding: 50px;
+    box-shadow: 0px 0px 0px .1px grey;
+}
+
+.about_content:hover{
+    transform: scale(1.05);
+    background-color: #ffffff;
 }
 
 .personal_content {
-    width: 50%;
+    width: 60%;
 }
 
 .service_content {
-    width: 50%;
+    width: 40%;
 }
 
 .about h3 {
@@ -40,8 +52,16 @@ ul>li {
     list-style-type: none
 }
 
+.about_personal{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
 .service_content {
-    margin-left: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 .service_content h3 {
@@ -102,6 +122,7 @@ span.value {
     gap: 20px;
     padding: 20px;
     width: 100%;
+    
 }
 
 .skill456 {
@@ -110,6 +131,7 @@ span.value {
     margin-left: 40px;
     display: grid;
     justify-content: center;
+    align-items: center;
     grid-template-columns: repeat(auto-fill, minmax(430px, 1fr));
     grid-column-gap: 6px;
     grid-row-gap: 6px;
@@ -120,20 +142,32 @@ span.value {
     color: var(--main-color);
 }
 
+.new{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
 .course_card {
+    border-radius: 30px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
     margin: 10px;
     max-height: 400px;
-    max-width: 430px;
-    box-shadow: 0 4px 5px 3px black;
+    max-width: 400px;
+    background-color: #F1F1F1;
+    box-shadow: 0 0px 0px .1px grey;
     color: var(--sub-text-color);
     opacity: .9;
-    background-color: transparent;
     transition: all .5 ease 0s;
 }
 
-.course_card:hover {
-    opacity: .7;
+.course_card:hover{
+    background-color: #ffffff;
+    transform: scale(1.1);
 }
+
 
 .course_card h5{
     font-size: 26px;
@@ -155,6 +189,7 @@ span.value {
 }
 
 img {
+    border-radius: 30px;
     margin: 2.5%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -168,10 +203,9 @@ img {
     margin-top: 10px;
     margin-bottom: 20px;
     margin-left: 10px;
-    margin-right: 10px;
     max-height: 400px;
-    max-width: 430px;
-    box-shadow: 0 4px 5px 3px black;
+    width: 430px;
+    box-shadow: 0px 0px 0px .1px grey;
     color: var(--sub-text-color);
     opacity: .9;
     background-color: transparent;

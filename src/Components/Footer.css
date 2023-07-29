@@ -1,0 +1,19 @@
+.footer{
+    height:200px;
+    background-color: #F1F1F1;
+    width:100%;
+}
+.social{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.text{
+    text-align: center;
+    font-size: larger;
+}
+

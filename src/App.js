@@ -10,6 +10,7 @@ import Skills from './Components/Skills';
 import Resume from './Components/Resume';
 import { useCallback } from "react";
 import React from 'react';
+import Footer from './Components/Footer';
 
 function App() {
 
@@ -38,7 +39,7 @@ function App() {
                   value: "#ffffff",
                 },
               },
-              fpsLimit: 120,
+              fpsLimit: 30,
               interactivity: {
                 events: {
                   onClick: {
@@ -63,10 +64,10 @@ function App() {
               },
               particles: {
                 color: {
-                  value: "#F40000",
+                  value: "#222222",
                 },
                 links: {
-                  color: "#F40000",
+                  color: "#000000",
                   distance: 150,
                   enable: true,
                   opacity: 0.5,
@@ -116,6 +117,7 @@ function App() {
             <Route path='/resume' element={<Resume />} />
           </Routes>
         </div>
+        <Footer />
       </div>
   );
 }

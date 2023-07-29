@@ -21,25 +21,23 @@ const Skills = () => {
         <div class="box"><FaReact size={n}/></div>
         <div class="box"><FaHtml5 size={n}/></div>
         <div class="box"><FaCss3Alt size={n}/></div>
-        <div class="box"><SiKotlin size={n-20}/></div>
+        <div class="box"><SiKotlin size={n}/></div>
         <div class="box"><FaAndroid size={n}/></div>
         <div class="box"><TbBrandJavascript size={n}/></div>
         <div class="box"><FaJava size={n}/></div>
         <div class="box"><FaPython size={n}/></div>
         <div class="box"><FaNode size={n}/></div>
         <div class="box"><FaDatabase size={n}/></div>
-        <div class="box"><FaPhp size={n}/></div>
-        <div class="box"><DiGit size={n}/></div>
       </div>
       <h3>Tools</h3>
       <div className='skill2'>
         <div class="box"><SiAndroidstudio size={n}/></div>
         <div class="box"><DiVisualstudio size={n}/></div>
         <div class="box"><SiJupyter size={n}/></div>
-        <div class="box"><SiAnaconda size={n-20}/></div>
-        <div class="box"><DiGit size={n}/></div>
+        <div class="box"><SiAnaconda size={n}/></div>
       </div>
     </div>
+    <br></br>
   </section>
   )
 }

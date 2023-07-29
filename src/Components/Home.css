@@ -7,6 +7,9 @@
 }
 
 .Homewrapper h1{
+    display: flex;
+    justify-content: center;
+    align-items:center;
     color: var(--main-color);
     font-size: 6rem;
     line-height: 6rem;
@@ -14,10 +17,10 @@
     overflow: hidden;
     white-space: nowrap;
     font-family:'Times New Roman', Times, serif;
-    animation: typewriter 4s steps(44) 1s 1 normal both;
+    animation: typewriter 5s steps(100) 1s 1 normal both;
 }
 @keyframes typewriter{
-  from{width: 0;}
+  from{width: 0em}
   to{width: 12em;}
 }
 

@@ -23,15 +23,6 @@ const Home = () => {
       </Animate>
     </section>
   )
-
-}/*
-                <main class="container">
-          <p>Hello 👋 I'm</p>
-          <section class="animation">
-            <div class="first"><div>Carlos Córdova</div></div>
-            <div class="second"><div>Web Developer</div></div>
-            <div class="third"><div>Systems Engineer</div></div>
-          </section>
-        </main> */
+}
 
 export default Home;

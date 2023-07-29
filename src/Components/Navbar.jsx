@@ -18,10 +18,10 @@ const Navbar = () => {
     <header>
         <h2><Link className='link' to="./">Muthu</Link></h2>
         <nav ref={navRef}>
-            <Link className='link' to="./"><AiTwotoneHome/> Home</Link>
-            <Link className='link' to="./about"><BsPersonFill/> About</Link>
-            <Link className='link' to="./project"><AiFillProject/> Projects</Link>
-            <Link className='link' to="./skills"><FaIdBadge/> Skills</Link>
+            <div className='naviiiii'><Link className='link' to="./"><AiTwotoneHome/> Home</Link></div>
+            <div className='naviiiii'><Link className='link' to="./project"><AiFillProject/> Projects</Link></div>
+            <div className='naviiiii'><Link className='link' to="./about"><BsPersonFill/> About</Link></div>
+            <div className='naviiiii'><Link className='link' to="./skills"><FaIdBadge/> Skills</Link></div>
             <button className='nav-btn nav-close-btn' onClick={showNavbar}>
                 <FaTimes />
             </button>
