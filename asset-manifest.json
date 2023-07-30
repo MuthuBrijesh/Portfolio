@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.15934035.css",
-    "main.js": "/Portfolio/static/js/main.75f1be1b.js",
+    "main.css": "/Portfolio/static/css/main.edc71dff.css",
+    "main.js": "/Portfolio/static/js/main.203d9c57.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Kotlin.png": "/Portfolio/static/media/Kotlin.3990f19ec94897ba13ea.png",
     "static/media/Hotel.png": "/Portfolio/static/media/Hotel.a6af3bae0d90cc89a16d.png",
@@ -22,12 +22,12 @@
     "static/media/IICC2.png": "/Portfolio/static/media/IICC2.3afce02b57ba5718fd96.png",
     "static/media/Gas.png": "/Portfolio/static/media/Gas.27f0bbcbaa44caf66acc.png",
     "index.html": "/Portfolio/index.html",
-    "main.15934035.css.map": "/Portfolio/static/css/main.15934035.css.map",
-    "main.75f1be1b.js.map": "/Portfolio/static/js/main.75f1be1b.js.map",
+    "main.edc71dff.css.map": "/Portfolio/static/css/main.edc71dff.css.map",
+    "main.203d9c57.js.map": "/Portfolio/static/js/main.203d9c57.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15934035.css",
-    "static/js/main.75f1be1b.js"
+    "static/css/main.edc71dff.css",
+    "static/js/main.203d9c57.js"
   ]
 }
