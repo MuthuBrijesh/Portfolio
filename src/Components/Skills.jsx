@@ -2,6 +2,7 @@ import React from 'react';
 import PageHeader from './PageHeader';
 import {FaIdBadge} from 'react-icons/fa';
 import './Skills.css';
+import Footer from './Footer';
 import {TbBrandJavascript} from 'react-icons/tb';
 import {FaJava, FaPython, FaHtml5,FaCss3Alt, FaReact, FaNode, FaAndroid, FaDatabase, FaPhp} from 'react-icons/fa';
 import {SiKotlin, SiAndroidstudio, SiJupyter, SiAnaconda} from 'react-icons/si';
@@ -38,6 +39,7 @@ const Skills = () => {
       </div>
     </div>
     <br></br>
+    <Footer/>
   </section>
   )
 }

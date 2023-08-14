@@ -1,5 +1,13 @@
+.grid123{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
 .aboutme {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
     padding: 20px;
     width: 100%;
@@ -22,6 +30,10 @@
     width: 60%;
 }
 
+.personal_content1 {
+    width: 40%;
+}
+
 .service_content {
     width: 40%;
 }
@@ -33,16 +45,19 @@
     color: var(--main-color);
 }
 
-.personal_content p {
+.personal_content p ,.personal_content1 p{
     color: var(--sub-text-color);
     font-size: 1.8rem;
-    margin-top: 10px;
     line-height: 2.2rem;
     width: 100%;
-    padding-bottom: 20px;
-
-    text-align: justify;
+    padding-bottom: 15px;
     font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+}
+.personal_content1 p{
+    font-size: 1.5rem;
+    line-height: 1.8rem;
 }
 
 ul>li {
@@ -100,9 +115,11 @@ span.value {
     .aboutme {
         flex-direction: column;
     }
-
-    .personal_content {
-        width: 100%;
+    span{
+        width:100%;
+    }
+    .personal_content,.personal_content1 {
+        width: 80%;
     }
 
     .service_content {
@@ -111,10 +128,79 @@ span.value {
     }
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:399px) {
     .course_card {
-        width: 90%;
-        margin: 0px;
+        width: 300px;
+        height:300px;
+        margin: 10px;
+    }
+    .course_card1 {
+        width: 300px;
+        height:300px;
+        margin: 10px;
+    }
+    .new{
+        margin:10px;
+    }
+    .course_card h5{
+        font-size: 15px;
+        margin: 10px;
+        color: var(--main-color);
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .aboutme2 h3 {
+        margin-bottom: 10px;
+        font-size: 1.3rem;
+        font-weight: 700;
+        text-align: center;
+        color: var(--main-color);
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .course_card {
+        width: 250px;
+        height:250px;
+        margin: 10px;
+    }
+    .course_card1 {
+        width: 250px;
+        height:250px;
+        margin: 10px;
+    }
+    .new{
+        margin:10px;
+    }
+    .course_card h5{
+        font-size: 15px;
+        margin: 10px;
+        color: var(--main-color);
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+@media only screen and (max-width:260px) {
+    .course_card {
+        width: 200px;
+        height:200px;
+        margin: 10px;
+    }
+    .course_card1 {
+        width: 200px;
+        height:200px;
+        margin: 10px;
+    }
+    .new{
+        margin:10px;
+    }
+    .course_card h5{
+        font-size: 15px;
+        margin: 10px;
+        color: var(--main-color);
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
     }
 }
 
@@ -128,11 +214,11 @@ span.value {
 .skill456 {
     margin-top: 40px;
     margin-left: 40px;
-    margin-left: 40px;
+    margin-right: 40px;
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(auto-fill, minmax(430px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-column-gap: 6px;
     grid-row-gap: 6px;
 }
@@ -148,99 +234,111 @@ span.value {
     align-items: center;
 }
 
-.course_card {
-    border-radius: 30px;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    max-height: 400px;
+.course_card {  
+    margin: 20px;
+    height: 300px;
     max-width: 400px;
-    background-color: #F1F1F1;
-    box-shadow: 0 0px 0px .1px grey;
     color: var(--sub-text-color);
-    opacity: .9;
-    transition: all .5 ease 0s;
+    overflow: hidden;
+    /*transition: all .5 ease 0s;*/
 }
 
-.course_card:hover{
-    background-color: #ffffff;
-    transform: scale(1.1);
+.course_card:hover .card_body{
+    right: 0%;
 }
 
 
 .course_card h5{
-    font-size: 26px;
-    margin: 10px;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    top:50%;
+    font-weight: 500px;
     margin-bottom: 50px;
     color: var(--main-color);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.course_card img {
+    border-radius: 30px;
+    height: 100%;
+    width: 100%;
+    border:10px solid rgba(0, 0, 0, 0.15) ;
+    object-fit:fill;
+    vertical-align: middle;
+}
+
+.card_body{
+    width:100%;
+    height: 100%;
+    top:0;
+    display: grid;
+    justify-content: center;
+    right:-100%;
+    position: absolute;
+    transition: 3s;
+    backdrop-filter: blur(5px);
+}
+
+.course_card1:hover .card_body{
+    right: 0%;
 }
 
 .course_card1 h5 {
-    font-size: 26px;
-    margin: 10px;
+    font-size: 30px;
+    top: 35%;
     margin-bottom: 50px;
-    color: var(--main-color);
+    font-weight: bolder;
+    color: white;
     text-align: center;
-    top: 120px;
     font-family: 'Times New Roman', Times, serif;
 }
 
-img {
+
+.course_card1 img {
     border-radius: 30px;
-    margin: 2.5%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    height: 300px;
-    width: 95%;
+    height: 100%;
+    width: 100%;
+    border:10px solid rgba(0, 0, 0, 0.15) ;
+    object-fit:fill;
     vertical-align: middle;
 }
 
 .course_card1 {
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    max-height: 400px;
-    width: 430px;
-    box-shadow: 0px 0px 0px .1px grey;
+    margin: 20px;
+    height: 300px;
+    width: 400px;
     color: var(--sub-text-color);
-    opacity: .9;
-    background-color: transparent;
-    transition: all .5 ease 0s;
-}
-
-.overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: .8;
-    background-color: #ffffff;
     overflow: hidden;
-    width: 100%;
-    height: 0;
-    transition: 2s ease;
-  }
-  
-  .course_card1:hover .overlay {
-    height: 100%;
-    z-index: 2;
+}
+.button10{
+    margin-top: 10px;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 30px;
+    height:60px;
+    width:250px;
+    padding: 15px;
+    background-color: none;
+    top: 25%;
+    left: 0%;
+    text-align: center;
+    cursor: pointer;
   }
   
   .text button{
     color: black;
     font-size: 25px;
-    position: absolute;
     font-weight: 600;
     border-radius: 10px;
     height:60px;
     width:150px;
     padding: 15px;
     background-color: red;
-    top: 160px;
-    left: 130px;
+    top: 25%;
+    left: 0%;
     text-align: center;
+    cursor: pointer;
   }

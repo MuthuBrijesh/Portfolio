@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 40px;
 }
 
 .text{
@@ -17,3 +17,8 @@
     font-size: larger;
 }
 
+.soci:hover{
+    background-color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+}
