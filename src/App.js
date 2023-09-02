@@ -25,7 +25,7 @@ function App() {
 
   const location = useLocation();
 
-  const home = location.pathname === "/Portfolio";
+  const home = location.pathname === "/Portfolio/";
 
   return (
     <div className="App">
@@ -110,7 +110,7 @@ function App() {
       <Navbar />
         <div className='App_main_pagecontent'>
           <Routes>
-            <Route path='/Portfolio' element={<Home />} />
+            <Route path='/Portfolio/' element={<Home />} />
             <Route path='/about' element={<About />} />
             <Route path='/project' element={<Projects />} />
             <Route path='/skills' element={<Skills />} />
