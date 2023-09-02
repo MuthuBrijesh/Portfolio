@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css';
 import { useNavigate } from 'react-router-dom';
 import { Animate } from 'react-simple-animate';
-
+import { Navbaar } from './Navbar'
 const Home = () => {
 
   const navigate = useNavigate();

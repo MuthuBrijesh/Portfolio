@@ -2,7 +2,7 @@ import Navbar from './Components/Navbar';
 import './App.css';
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import { Routes, Route ,useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation, BrowserRouter } from 'react-router-dom';
 import Home from './Components/Home';
 import About from './Components/About';
 import Projects from './Components/Projects';
@@ -24,100 +24,100 @@ function App() {
   }, []);
 
   const location = useLocation();
-  
-  const home = location.pathname === "/";
+
+  const home = location.pathname === "/Portfolio";
 
   return (
-      <div className="App">
-        {home && (<Particles 
-            id="tsparticles"
-            init={particlesInit}
-            loaded={particlesLoaded}
-            options={{
-              background: {
-                color: {
-                  value: "#ffffff",
-                },
+    <div className="App">
+      {home && (<Particles
+        id="tsparticles"
+        init={particlesInit}
+        loaded={particlesLoaded}
+        options={{
+          background: {
+            color: {
+              value: "#ffffff",
+            },
+          },
+          fpsLimit: 30,
+          interactivity: {
+            events: {
+              onClick: {
+                enable: true,
+                mode: "push",
               },
-              fpsLimit: 30,
-              interactivity: {
-                events: {
-                  onClick: {
-                    enable: true,
-                    mode: "push",
-                  },
-                  onHover: {
-                    enable: true,
-                    mode: "repulse",
-                  },
-                  resize: true,
-                },
-                modes: {
-                  push: {
-                    quantity: 0,
-                  },
-                  repulse: {
-                    distance: 200,
-                    duration: 0.4,
-                  },
-                },
+              onHover: {
+                enable: true,
+                mode: "repulse",
               },
-              particles: {
-                color: {
-                  value: "#222222",
-                },
-                links: {
-                  color: "#000000",
-                  distance: 150,
-                  enable: true,
-                  opacity: 0.5,
-                  width: 1,
-                },
-                collisions: {
-                  enable: true,
-                },
-                move: {
-                  direction: "none",
-                  enable: true,
-                  outModes: {
-                    default: "bounce",
-                  },
-                  random: false,
-                  speed: 4,
-                  straight: false,
-                },
-                number: {
-                  density: {
-                    enable: true,
-                    area: 700,
-                  },
-                  value: 80,
-                },
-                opacity: {
-                  value: 0.5,
-                },
-                shape: {
-                  type: "circle",
-                },
-                size: {
-                  value: { min: 1, max: 5 },
-                },
+              resize: true,
+            },
+            modes: {
+              push: {
+                quantity: 0,
               },
-              detectRetina: true,
-            }}
-          />)}
+              repulse: {
+                distance: 200,
+                duration: 0.4,
+              },
+            },
+          },
+          particles: {
+            color: {
+              value: "#222222",
+            },
+            links: {
+              color: "#000000",
+              distance: 150,
+              enable: true,
+              opacity: 0.5,
+              width: 1,
+            },
+            collisions: {
+              enable: true,
+            },
+            move: {
+              direction: "none",
+              enable: true,
+              outModes: {
+                default: "bounce",
+              },
+              random: false,
+              speed: 4,
+              straight: false,
+            },
+            number: {
+              density: {
+                enable: true,
+                area: 700,
+              },
+              value: 80,
+            },
+            opacity: {
+              value: 0.5,
+            },
+            shape: {
+              type: "circle",
+            },
+            size: {
+              value: { min: 1, max: 5 },
+            },
+          },
+          detectRetina: true,
+        }}
+      />)}
 
-        <Navbar />
+      <Navbar />
         <div className='App_main_pagecontent'>
           <Routes>
-            <Route path='/' element={<Home />} />
+            <Route path='/Portfolio' element={<Home />} />
             <Route path='/about' element={<About />} />
             <Route path='/project' element={<Projects />} />
             <Route path='/skills' element={<Skills />} />
             <Route path='/resume' element={<Resume />} />
           </Routes>
         </div>
-      </div>
+    </div>
   );
 }
 
