@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.c61fc211.css",
-    "main.js": "/Portfolio/static/js/main.746d1c53.js",
+    "main.js": "/Portfolio/static/js/main.0e7f49ec.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Billing.jpg": "/Portfolio/static/media/Billing.385cd5b05e58af4c4212.jpg",
     "static/media/Hotel.jpg": "/Portfolio/static/media/Hotel.0468fb74d302841ccbf0.jpg",
     "static/media/Stock.jpg": "/Portfolio/static/media/Stock.52867c4914ccc13ed713.jpg",
     "static/media/Kotlin.png": "/Portfolio/static/media/Kotlin.3990f19ec94897ba13ea.png",
     "static/media/BOT.jpg": "/Portfolio/static/media/BOT.72458e39246bef29e352.jpg",
-    "static/media/MuthuBrijesh.pdf": "/Portfolio/static/media/MuthuBrijesh.dc4f87d3be1c5388d5ed.pdf",
+    "static/media/MuthuBrijesh.pdf": "/Portfolio/static/media/MuthuBrijesh.987d84c26e4bf2a41aba.pdf",
     "static/media/GOcrackit.png": "/Portfolio/static/media/GOcrackit.e71b4f52ef61481bb210.png",
     "static/media/GDSC.png": "/Portfolio/static/media/GDSC.d160f7c50b09a978bccb.png",
     "static/media/HTML.png": "/Portfolio/static/media/HTML.8dd81d4945b84a3bc678.png",
@@ -26,11 +26,11 @@
     "static/media/Gas.png": "/Portfolio/static/media/Gas.27f0bbcbaa44caf66acc.png",
     "index.html": "/Portfolio/index.html",
     "main.c61fc211.css.map": "/Portfolio/static/css/main.c61fc211.css.map",
-    "main.746d1c53.js.map": "/Portfolio/static/js/main.746d1c53.js.map",
+    "main.0e7f49ec.js.map": "/Portfolio/static/js/main.0e7f49ec.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c61fc211.css",
-    "static/js/main.746d1c53.js"
+    "static/js/main.0e7f49ec.js"
   ]
 }
