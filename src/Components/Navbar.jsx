@@ -16,7 +16,7 @@ const Navbar = () => {
 
     return (
         <header>
-            <h2><Link className='link' to="./">Muthu</Link></h2>
+            <h2><Link className='link' to="./Portfolio/">Muthu</Link></h2>
             <nav ref={navRef}>
                 <div className='naviiiii'><Link className='link' to="./Portfolio/"><AiTwotoneHome /> Home</Link></div>
                 <div className='naviiiii'><Link className='link' to="./project"><AiFillProject /> Projects</Link></div>
