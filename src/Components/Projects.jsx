@@ -16,9 +16,6 @@ const Projects = () => {
   const click1 = () => {
     window.location.replace('https://github.com/MuthuBrijesh/Royal-Rooms');
   }
-  const click2 = () => {
-    window.location.replace('https://github.com/MuthuBrijesh/Helping_Hand_App');
-  }
   const click3 = () => {
     window.location.replace('https://github.com/MuthuBrijesh/Supermarket-Billing-System');
   }
@@ -43,14 +40,6 @@ const Projects = () => {
             <img src={Hotel} alt="Javascript" />
             <div class="card_body">
               <div class="text" onClick={click1}><h5>Hotel Booking System</h5><button><FaGithub/> View</button></div>
-            </div>
-          </div></div><div className='new'>
-          <div className='course_card1'>
-            <img className='image' src={Helping} alt="Javascript" />
-            <div class="card_body">
-              <div class="text" onClick={click2}>
-                <h5>Helping Hand</h5>
-                <button><FaGithub/> View</button></div>
             </div>
           </div></div><div className='new'>
           <div className='course_card1'>
