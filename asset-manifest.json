@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.c61fc211.css",
-    "main.js": "/Portfolio/static/js/main.030ad89c.js",
+    "main.js": "/Portfolio/static/js/main.407d0386.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Billing.jpg": "/Portfolio/static/media/Billing.385cd5b05e58af4c4212.jpg",
     "static/media/Hotel.jpg": "/Portfolio/static/media/Hotel.0468fb74d302841ccbf0.jpg",
@@ -19,18 +19,17 @@
     "static/media/Android.png": "/Portfolio/static/media/Android.348fd3c88c2f19f999c3.png",
     "static/media/Linked.png": "/Portfolio/static/media/Linked.885da85e8f58df81944c.png",
     "static/media/HashCode.png": "/Portfolio/static/media/HashCode.6d51cb973000d77abb1e.png",
-    "static/media/HelpingHand.png": "/Portfolio/static/media/HelpingHand.e4a4141acd46b14474f2.png",
     "static/media/Kick Start.png": "/Portfolio/static/media/Kick Start.13b7de6017434652ebd2.png",
     "static/media/IICC2.png": "/Portfolio/static/media/IICC2.3afce02b57ba5718fd96.png",
     "static/media/pic3.png": "/Portfolio/static/media/pic3.f741d7170802095eab6f.png",
     "static/media/Gas.png": "/Portfolio/static/media/Gas.27f0bbcbaa44caf66acc.png",
     "index.html": "/Portfolio/index.html",
     "main.c61fc211.css.map": "/Portfolio/static/css/main.c61fc211.css.map",
-    "main.030ad89c.js.map": "/Portfolio/static/js/main.030ad89c.js.map",
+    "main.407d0386.js.map": "/Portfolio/static/js/main.407d0386.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c61fc211.css",
-    "static/js/main.030ad89c.js"
+    "static/js/main.407d0386.js"
   ]
 }
